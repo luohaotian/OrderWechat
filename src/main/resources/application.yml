@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+      username: root
+      password: XieFeihong@107107
+      url: jdbc:mysql://120.78.51.133:3306/scoremanage?characterEncoding=utf8
+      driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
